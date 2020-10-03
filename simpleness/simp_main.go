@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/zhangsongyang/leetcode-go/simpleness/problem"
-
 	"gitee.com/go-package/carbon"
 	"github.com/google/go-cmp/cmp"
+	"github.com/zhangsongyang/leetcode-go/simpleness/problem"
 )
 
 func main() {
@@ -20,6 +19,11 @@ func main() {
 	// 191. 位1的个数
 	fmt.Println("191. 位1的个数:", problem.HammingWeight(011))
 	// 231. 2的幂
-	fmt.Println("231. 2的幂:", problem.IsPowerOfTwo(16))
+	fmt.Println("输入一个int:")
+	var n int
+	fmt.Scanln(&n)
+	fmt.Printf("231. 2的幂--> %v是否是 2 的幂次:%v\n", n, problem.IsPowerOfTwo(n))
+	// 190. 颠倒二进制位
+	fmt.Printf("190. 颠倒二进制位:%b", problem.ReverseBits(4294967293))
 
 }
