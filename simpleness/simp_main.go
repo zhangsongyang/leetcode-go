@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"gitee.com/go-package/carbon"
 	"github.com/google/go-cmp/cmp"
+	"github.com/google/uuid"
 	"github.com/zhangsongyang/leetcode-go/simpleness/problem"
 )
 
@@ -13,6 +14,7 @@ func main() {
 	fmt.Println(cmp.Equal("he", "he"))
 	c := carbon.New().Timezone(carbon.PRC)
 	fmt.Println(c.Today())
+	fmt.Println(uuid.New().String())
 
 	// 9. 回文数
 	fmt.Println("9. 回文数:", problem.IsPalindrome(121))
