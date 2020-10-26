@@ -13,4 +13,6 @@ func main() {
 
 	//142. 环形链表 II
 	problem.DetectCycle_main()
+	//11. 盛最多水的容器
+	problem.MaxArea_main()
 }

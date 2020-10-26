@@ -88,5 +88,5 @@ func DetectCycle_main() {
 	headC.Next = &headD
 	headD.Next = &headB
 
-	fmt.Println(DetectCycle(&head))
+	fmt.Println("环形链表 II:", DetectCycle(&head))
 }
