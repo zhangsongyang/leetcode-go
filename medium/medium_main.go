@@ -15,4 +15,6 @@ func main() {
 	problem.DetectCycle_main()
 	//11. 盛最多水的容器
 	problem.MaxArea_main()
+	//144. 二叉树的前序遍历
+	problem.PreorderTraversal_main()
 }
