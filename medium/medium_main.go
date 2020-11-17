@@ -17,4 +17,6 @@ func main() {
 	problem.MaxArea_main()
 	//144. 二叉树的前序遍历
 	problem.PreorderTraversal_main()
+	//198. 打家劫舍
+	problem.Rob_main()
 }
