@@ -19,4 +19,6 @@ func main() {
 	problem.PreorderTraversal_main()
 	//198. 打家劫舍
 	problem.Rob_main()
+	//64. 最小路径和
+	problem.MinPathSum_main()
 }
