@@ -21,4 +21,6 @@ func main() {
 	problem.Rob_main()
 	//64. 最小路径和
 	problem.MinPathSum_main()
+	//238. 除自身以外数组的乘积
+	problem.ProductExceptSelf_main()
 }
